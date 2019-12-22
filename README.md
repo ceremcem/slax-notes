@@ -9,6 +9,4 @@
        systemctl set-default multi-user.target
 
 
-
-
-
+3. Make modules directly from the apt command: [Forum thread](https://groups.google.com/forum/#!topic/slax-users/5dCZbzfpAjA)
