@@ -13,6 +13,7 @@ EOL
 
 sudo groupadd vboxusers
 sudo useradd -d /home/vbox -m -g vboxusers -s /bin/bash vbox
+sudo usermod -a -G disk vbox # for real harddisk virtualization
 sudo passwd vbox # remember the password, we'll need it
 
 cat << EOL > path/to/phpvirtualbox/run-server.sh
