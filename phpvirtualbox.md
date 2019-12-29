@@ -29,13 +29,14 @@ EOL
 ```
 ## Running: 
 
-```
-# run in a separate terminal: (workaround for buggy `systemctl start vboxweb-service`)
-sudo -u vbox vboxwebsrv --background
+1. Run in a separate terminal: (workaround for buggy `systemctl start vboxweb-service`)
 
-path/to/phpvirtualbox/run-server.sh
+        sudo -u vbox vboxwebsrv --background
 
-# Connect to ip-address:1234
-```
+2. Run `path/to/phpvirtualbox/run-server.sh`
+
+
+3. Connect to http://ip-address:1234
+
 > Note: Phpvirtualbox's web console  requires Adobe Flash Player Plugin on the client, 
 > and isn't working correctly. Use Remmina (or similar) instead.
