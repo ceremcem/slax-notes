@@ -12,3 +12,5 @@
 3. Make modules directly from the apt command: [Forum thread](https://groups.google.com/forum/#!topic/slax-users/5dCZbzfpAjA)
 
 4. Activate modules on the fly, generating iso's with extra modules: https://www.slax.org/customize.php
+
+5. Upgrade the Debian version as usual: `apt-get upgrade && apt-get dist-upgrade`
