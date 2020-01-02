@@ -14,3 +14,7 @@
 4. Activate modules on the fly, generating iso's with extra modules: https://www.slax.org/customize.php
 
 5. Upgrade the Debian version as usual: `apt-get upgrade && apt-get dist-upgrade`
+
+6. If `apt-get update` fails with "could not resolve hostname": 
+
+       chmod o+r /etc/resolv.conf
