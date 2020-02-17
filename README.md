@@ -15,6 +15,8 @@
 
 5. Upgrade the Debian version as usual: `apt-get upgrade && apt-get dist-upgrade`
 
+    > Note: Kernel is not updated, see [#2](https://github.com/ceremcem/slax-notes/issues/2)
+
 6. If `apt-get update` fails with "could not resolve hostname": 
 
        chmod o+r /etc/resolv.conf
